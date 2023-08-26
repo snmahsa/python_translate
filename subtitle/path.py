@@ -12,7 +12,7 @@ def get_srt_file():
         return None
 
 def Saveـpath():
-    path = filedialog.askopenfilename(title="Select saved File")
+    path = filedialog.askdirectory()
     if path:
         return path
     else:

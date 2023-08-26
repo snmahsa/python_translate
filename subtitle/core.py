@@ -2,7 +2,7 @@ import os
 from path import get_srt_file, Saveـpath
 from translate import translate
 
-def run():
+def run(origin_lang, dest_lang):
     src_file = get_srt_file()
     dest_path = Saveـpath()
     if src_file is not None and dest_path is not None:
